@@ -16,4 +16,9 @@ public class GenericMethod {
         System.out.println("bound print : " + obj);
         return obj;
     }
+
+    public static <T> T numberMethod(T i) {
+        System.out.println("numberMethod print : " + i);
+        return i;
+    }
 }
