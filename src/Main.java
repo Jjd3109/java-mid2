@@ -1,17 +1,33 @@
+import java.util.Scanner;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
-    }
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int N = sc.nextInt();
+//        int M = sc.nextInt();
+//
+//        String[][] sqare = new String[N][M];
+//
+//        //문제 생성
+//        for(int i = 0; i < N; i++){
+//
+//            for(int j = 0; j<M; j++){
+//                String value = sc.nextLine();
+//
+//                sqare[i][j] = value;
+//
+//            }
+//        }
+//
+//        //어디 부분에서 들어가는지 확인해야 한다.
+//        //1. bw의 갯수 확인
+//        //2. wb의 갯수 확인!!1
+//
+//        for(int )
+//
+//
+//    }
 }
